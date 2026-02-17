@@ -8,9 +8,9 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <Todocard/>
+    <Tab Switch/>
   )
    
 }
 
-export default TO-DO-List
+export default App
