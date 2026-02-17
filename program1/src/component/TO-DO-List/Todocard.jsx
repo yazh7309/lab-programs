@@ -5,7 +5,7 @@ export default function Todocard(){
     return(
         <div>
             <h1>TO-DO-List</h1>
-            <input type="text" placeholder="Enter new task"onKeyUp/>
+            <input type="text" placeholder="Enter new task"onKeyUp={(count)} />
             <button>Add task</button>
             <div>NO tasks yet</div>
         </div>
