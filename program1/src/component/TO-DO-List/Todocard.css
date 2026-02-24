@@ -1,0 +1,49 @@
+.app {
+  width: 400px;
+  margin: auto;
+  font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+}
+
+.task-form {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  gap: 10px;
+  padding: 8px;
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.delete {
+  color: red;
+}
+
+.empty {
+  text-align: center;
+  color: gray;
+}
